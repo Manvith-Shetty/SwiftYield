@@ -157,7 +157,7 @@ yarn dev
 
 Visit the app on: `http://localhost:3000`. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
 
-6. Now to interact with the bot and perform Flash Loan Arbitrage
+6. Now to interact with the bot and perform Flash Loan Arbitrage run the following commands in shell:
 
 ```
 cd packages/bot
