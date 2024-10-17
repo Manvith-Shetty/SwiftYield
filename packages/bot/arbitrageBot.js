@@ -306,7 +306,6 @@ async function main() {
     const bestOption = await findBestSwapForward(currentValue);
     console.log("Best swap forward:", bestOption);
 
-    // Estimate gas cost (replace with actual implementation)
     const gasCost1 = 0.00001;
     console.log("Current value: ", currentValue);
     const [exchange1, token] = bestOption.split(/(?=[A-Z])/);
@@ -387,8 +386,6 @@ async function main() {
     }
 
     const SLIPPAGE_TOLERANCE = 0.000009;
-
-    // Then modify these lines
     let token1Expect;
     let token2Expect;
 
